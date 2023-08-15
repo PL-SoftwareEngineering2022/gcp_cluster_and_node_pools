@@ -1,4 +1,4 @@
-module "vpc_backend_dev_cluster" {
+module "phyllis_mamz_dev_cluster" {
   source                              = "./terraform/modules/gke"
   gke_cluster_name                    = var.GKE_CLUSTER
   gke_zone                            = var.GKE_ZONE
